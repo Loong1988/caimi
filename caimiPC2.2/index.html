@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/index2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mui.min.css" />
+		<script src="js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<meta charset="utf-8" />
+		<title>采蜜—全民推荐返利平台</title>
+		<meta name="description" content="采蜜平台致力于为广大“蜜粉”提供持续的可观收入。只需把产品推荐给身边又需要的朋友，让他们享受到优惠和返利的同时，自己也可以得到商家给的返佣。"/>
+		<meta name="baidu-site-verification" content="xKyKi27iZ1" />
+	</head>
+
+	<body ng-app="app" ng-controller="one">
+		<header class="head">
+			<nav class="headbox">
+
+				<div class="left">
+					<img src="img/index/logo.png" />
+					<img src="img/index/logoMsg.png" style="margin-left: 25px;"/>
+				</div>
+				<div class="right">
+					<span class="head-act">首页</span>
+					<span>产品</span>
+					<span>我们</span>
+				</div>
+			</nav>
+		</header>
+		<section class="bodys headtab0"  >
+			<nav class="tellImg">
+				<div class="tell">
+					<nav class="tell-box">
+						<!--轮播图切换-->
+						<div class="banner-box">
+							<!--mui-->
+							<div class="mui-slider" id="ban1">
+								<div class="mui-slider-group mui-slider-loop">
+									<!--支持循环，需要重复图片节点-->
+									<div class="mui-slider-item mui-slider-item-duplicate">
+										<a href="#"><img src="img/bananr/order3.png" /></a>
+									</div>
+									<div class="mui-slider-item">
+										<a href="#"><img src="img/bananr/order1.png" /></a>
+									</div>
+									<div class="mui-slider-item">
+										<a href="#"><img src="img/bananr/order2.png" /></a>
+									</div>
+									<div class="mui-slider-item">
+										<a href="#"><img src="img/bananr/order3.png" /></a>
+									</div>
+									<!--支持循环，需要重复图片节点-->
+									<div class="mui-slider-item mui-slider-item-duplicate">
+										<a href="#"><img src="img/bananr/order1.png" /></a>
+									</div>
+								</div>
+							</div>
+							<!--mui-->
+<!--mui-->
+
+							<!--mui-->
+						</div>
+					</nav>
+					<div class="app">
+						<div class="left">
+							<p class="p1" ng-click="tabChange(0)" ng-class="{'p1-act':tab==0}"></p>
+							<p class="p2"  ng-click="tabChange(1)" ng-class="{'p2-act':tab==1}"></p>
+							<nav class="money"></nav>
+						</div>
+						<div class="right" ng-if="tab==0">
+							<img src="img/tabact/android.png"/>
+						</div>
+						<div class="right" ng-if="tab==1">
+							<img src="img/tabact/wx.png"/>
+						</div>
+					</div>
+				</div>
+
+			</nav>
+			<aside class="tab3">
+				<div>
+					<img src="img/index/tab3-1.png" />
+					<dl>
+						<dt class="tit">推荐 | 返佣</dt>
+						<dd class="text">
+							<p>品质商品，良心推荐 </p>
+							<p>安心享高额返佣。</p>
+						</dd>
+					</dl>
+				</div>
+				<div>
+					<img src="img/index/tab3-2.png" />
+					<dl>
+						<dt class="tit">消费 | 返现</dt>
+						<dd class="text">
+							<p>货比三家，高额返现 </p>
+							<p>真正的省钱大王。</p>
+						</dd>
+					</dl>
+				</div>
+				<div>
+					<img src="img/index/tab3-3.png" />
+					<dl>
+						<dt class="tit">分享 | 返利</dt>
+						<dd class="text">
+							<p>动动手指，领取蜜糖 </p>
+							<p>兑换超划算商品。</p>
+						</dd>
+					</dl>
+				</div>
+			</aside>
+
+			<div class="caimi-message">
+				<div class="left">
+					<nav class="head">
+						<img src="img/common/message-tit.png" /> 采蜜公告
+					</nav>
+					<div class="caimi-notice">
+						<div class="left">
+							<img src="img/index/notice.png" />
+						</div>
+						<div class="right">
+							<dl>
+								<dt class="tit">不花钱购物，「采蜜」创造分享最大价值
+
+</dt>
+
+								<dd class="text">
+									<span>源自：采蜜ing平台 发布时间：17/10/27 16:47:23</span>
+									<p>
+										“花本来就该花的钱，赚本来赚不到的钱”这是「采蜜」平台的宗旨，一直以来只有经营者赚钱，消费者花钱，但时代发展到今天，消费者终于进入革命式变化时代，消费者终于也可以参与商品利润的分配了。「采蜜」平台整合了更多优惠的消费渠道，找到了更多迷茫的消费者，帮助他们做一个消费商成就自己的经营梦想！
+
+</p>
+								</dd>
+							</dl>
+							<aside class="down2">
+								<div class="d1">
+									<img src="img/index/down1.png" />分享好友
+								</div>
+								<div class="d2">
+									<img src="img/index/down2.png" />查看全文
+								</div>
+							</aside>
+						</div>
+					</div>
+					<section class="imglist">
+						<dl>
+							<dt><img src="img/index/list01.jpg"/></dt>
+							<dd class="news-tit">
+								<span class="news-font"><新闻></span>
+								<span class="news-text">IphoneX强势登陆，「采蜜」购机全额返现！
+
+</span>
+
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/index/list02.jpg"/></dt>
+							<dd class="news-tit">
+								<span class="news-font yellow"><活动></span>
+								<span class="news-text">不畏严寒， 「采蜜」冬季特卖会，返现高达80%
+</span>
+
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/index/list03.jpg"/></dt>
+							<dd class="news-tit">
+								<span class="news-font"><新闻></span>
+								<span class="news-text">「采蜜」天然有机专场，给家人一份健康保障！
+
+</span>
+
+							</dd>
+						</dl>
+						<dl>
+							<dt><img src="img/index/list04.jpg"/></dt>
+							<dd class="news-tit">
+								<span class="news-font yellow"><活动></span>
+								<span class="news-text">邀请好友注册「采蜜」即可得200元现金奖励
+</span>
+
+							</dd>
+						</dl>
+
+					</section>
+				</div>
+				<div class="right">
+					<nav class="head">
+						<img src="img/common/message-tit.png" /> 采蜜榜单
+					</nav>
+					<div class="ranking">
+						<ul>
+							<li ng-repeat="item in rank">
+								<div class="d1">
+									<span ng-if='$index>2'>
+										{{$index+1}}
+									</span>
+								</div>
+								<div class="d2">{{item.tell}}</div>
+								<div class="d3">+{{item.money}}元</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+		
+		<section class="headtab1">
+			<div class="imgbox">
+				
+			</div>
+			<div class="imgbox2 imgh"></div>
+			<div class="imgbox3 imgh"></div>
+			<div class="imgbox4 imgh"></div>
+		</section>
+		<section class="us headtab2" style="display: none;">
+			<nav class="us-head-bac" ></nav>
+			<aside class="long-img">
+				<img src="img/us/longimg-_01.png" id="top01"/>
+				<img src="img/us/longimg-_02.png" id="top02"/>
+				<img src="img/us/longimg-_03.png" id="top03"/>
+				<img src="img/us/longimg-_04.png" id="top04"/>
+				<img src="img/us/longimg-_05.png" id="top05"/>
+			</aside>
+			
+		</section>
+		
+		<footer class="footer">
+			<section class="foot-box">
+				<dl class="num big">
+					<dt>微信公众号</dt>
+					<dd>
+						<img src="img/num/wxgongzhonghao.png" />
+					</dd>
+				</dl>
+				<dl class="num ">
+					<dt>关于我们</dt>
+					<dd>
+						<p onclick="scrolltop2('top01')"> 公司概况</p>
+						<p onclick="scrolltop2('top03')">合作伙伴</p>
+
+					</dd>
+				</dl>
+				<dl class="num ">
+					<dt>广告合作</dt>
+					<dd>
+						<p onclick="scrolltop2('top05')">商务合作</p>
+						<p onclick="scrolltop2('top05')">广告合作</p>
+
+					</dd>
+				</dl>
+				<dl class="num ">
+					<dt>联系我们</dt>
+					<dd>
+						<p onclick="scrolltop2('top04')">采蜜QQ</p>
+						<p onclick="scrolltop2('top04')">采蜜微信</p>
+						<p onclick="scrolltop2('top05')">采蜜热线</p>
+
+					</dd>
+				</dl>
+				<dl class="num small">
+					<dt>微信客服</dt>
+					<dd>
+						<img src="img/num/qqkefu.png" />
+					</dd>
+				</dl>
+				<dl class="num small">
+					<dt>QQ客服</dt>
+					<dd>
+						<img src="img/num/wxkefu.png" />
+					</dd>
+				</dl>
+			</section>
+			<p class="icp">
+				北京同鱼科技有限公司 | 京ICP备16064006号
+			</p>
+
+		</footer>
+	</body>
+
+</html>
+<script src="js/jquery3.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.ellipsis.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	//	mui
+	var gallery = mui('.mui-slider');
+	gallery.slider({
+		interval: 2000 //自动轮播周期，若为0则不自动播放，默认为0；
+	});
+</script>
+<script type="text/javascript">
+	$('.headbox .right>span').click(function() {//head切换headtab1 
+		$(this).addClass('head-act').siblings().removeClass('head-act')
+		var index=$(this).index()
+		console.log(index)
+		$('.headtab'+index).show().siblings('section').hide()
+	})
+
+	$('.tellImg .tell-btn>div').click(function() {
+		$(this).addClass('tell-btn-act').siblings().removeClass('tell-btn-act')
+		var index=$(this).index()+1
+		$('#ban'+index).removeClass('muiopc').siblings('.mui-slider').addClass('muiopc')
+		var gallery = mui('#ban'+index);
+		gallery.slider().gotoItem(0);//跳转到第index张图片，index从0开始；
+	})
+
+	$('.caimi-notice .right .text p').ellipsis({
+		row: 4, //需要显示的行数
+	});
+	$('.news-text').ellipsis({
+		row: 2, //需要显示的行数
+	});
+	function scrolltop2(st) {
+		console.log(111111111)
+		$('.headbox .right>span').eq(1).click()
+		location.href='#'+st
+	}
+
+</script>
+<script type="text/javascript">
+	
+	var app=angular.module('app',[])   
+	app.controller('one',function ($scope) {
+	   $scope.rank=[{tell:'158****3265',money:32165},
+	   				{tell:'151****4322',money:28201},
+	   {tell:'177****1733',money:27563},
+	   {tell:'159****0987',money:22034},
+	   {tell:'156****1759',money:18165},
+	   {tell:'150****3985',money:13445},
+	   {tell:'132****2645',money:10032},
+	   {tell:'176****4765',money:8420},]
+	   $scope.tab=0;
+	   $scope.tabChange=function (num) {
+	   	$scope.tab=num;
+	   }
+	})
+	
+</script>

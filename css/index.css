@@ -1,0 +1,315 @@
+.head{
+	height: 90px;
+	background: #ffffff;
+}
+body{
+	background: #FFFFFF!important;
+}
+.bodys{
+	    width: 100%;
+    min-width: 1000px;
+}
+.head .headbox{
+	width: 1000px;
+	margin: auto;
+	height: 100%;
+	display: flex;
+}
+.head .headbox>div{
+	flex: 1;
+}
+
+.head .left{
+	width: 140px;
+	display: flex;
+    align-items: center;
+}
+.head .right{
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+.head .right>span{
+	width: 110px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+
+	
+}
+.head .right .head-act{
+	border-radius:20px;
+	background: #fed400;
+	color: #FFFFFF
+}
+.bodys .tellImg{
+	height: 550px;
+	background:#ffeb6e url(../img/index/banner.png) no-repeat center/100%;
+}
+.tellImg .tell{
+	width: 1000px;
+	margin: auto;
+	height: 100%;
+	    display: flex;
+	    align-items: flex-end;
+	        justify-content: space-between;
+}
+.tellImg .tell-box{
+	display: flex;
+		justify-content: center;
+    align-items: flex-end;
+	height: 530px;
+	width: 345px;
+	background: url(../img/index/iphone.png) no-repeat bottom center/345px 530px border-box;
+}
+.banner-box{
+height: 445px;
+    width: 275px;
+position: relative;
+}
+.muiopc{
+	opacity: 0;
+}
+#ban1{
+	position: absolute;
+	top: 0;
+	
+}
+#ban2{
+	position: absolute;
+	top: 0;
+}
+.zindex5{
+	z-index: 5;
+}
+.zindex10{
+	z-index: 10;
+}
+#ban1 img{
+	height: 445px;
+    width: 275px;
+}
+#ban2 img{
+	height: 445px;
+    width: 275px;
+}
+.tellImg .tell-btn{
+	float: right;
+	/*height: 60px;*/
+	display: flex;
+	padding-bottom: 50px;
+	
+}
+.tellImg .tell-btn>div{
+	cursor: pointer;
+	text-indent: 45px;
+	font-size: 26px;
+	width: 260px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: #FFFFFF;
+	background: url(../img/index/tell-btn.png) no-repeat center center/ 260px 60px;
+}
+.tellImg .tell-btn .tell-btn-act{
+	color: #4E4E4C;
+	background: url(../img/index/tell-btn-act.png) no-repeat center center/ 260px 60px;
+}
+.ma45{
+	    margin-right: 45px;
+}
+.bodys .tab3{
+	width: 1000px;
+	height: 220px;
+	margin: auto;
+	display: flex;
+	
+}
+.bodys .tab3>div{
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+.bodys .tab3 .tit{
+	color: #595958;
+	font-size: 20px;
+	line-height: 40px;
+}
+.bodys .tab3 .text{
+	color: #aaaaaa;
+	font-size: 18px;
+	line-height: 30px;
+}
+.bodys .tab3 img{
+	width: 140px;
+	margin-right: 20px;
+	
+}
+.bodys .caimi-message{
+	height: 460px;
+	width: 1000px;
+	margin: auto;
+	display: flex;
+}
+.bodys .caimi-message .left{
+	width: 670px;
+}
+.bodys .caimi-message .right{
+	width: 330px;
+}
+.bodys .caimi-message .head{
+	height: 106px;
+	font-size: 24px;
+	color:#4E4E4C;
+	display: flex;
+	align-items: center;
+	
+}
+.caimi-message .head img{
+	width: 70px;
+	margin-right: 12px;
+}
+.caimi-message .caimi-notice{
+	height:165px;
+	display: flex;
+}
+.caimi-message .caimi-notice .left{
+	width: 250px;
+}
+.caimi-message .caimi-notice .right{
+	width: 385px;
+	padding-left: 15px;
+	padding-right: 20px;
+	position: relative;
+}
+.caimi-message .caimi-notice img{
+	width: 100%;
+}
+.caimi-message .ranking{
+	height: 354px;
+	border: 1px solid #cccccc;
+	background: url(../img/index/ranking.png) no-repeat  center 120px/230px;
+}
+.ranking p{
+	text-align: center;
+	margin-top: 50px;
+	color: #c2c2c2;
+}
+.caimi-notice .right .tit{
+	font-size: 18px;
+	color: #4E4E4C;
+}
+.caimi-notice .right .text span{
+	font-size: 12px;
+	color: #AAAAAA;
+}
+.caimi-notice .right .text p{
+	font-size: 12px;
+	color: #4E4E4C;
+	background: #fcfcfc;
+	padding: 5px 5px 5px 0;
+	line-height: 160%;
+}
+.caimi-notice .down2{
+	height: 26px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+}
+.caimi-notice .down2>div{
+	height: 100%;
+	display: flex;
+	align-items: center;
+		font-size: 12px;
+	color: #4E4E4C;
+	    margin-right: 26px;
+}
+.caimi-notice .down2 img{
+	width: 26px!important;
+	margin-right: 5px;
+}
+.caimi-message .imglist{
+	height: 150px;
+		display: flex;
+	padding-right: 20px;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.imglist .img{
+	width: 150px;
+	height: 100px;
+}
+
+.imglist dl{
+	width: 150px;
+	font-size: 12px;
+	color: #4E4E4C;
+	
+}
+.news-tit .yellow{
+	color: #ffd300;
+}
+.imglist .news-font{
+	font-weight: 600;
+}
+.imglist .news-font{
+	display: inline-block;
+}
+.footer{
+	width: 100%;
+	min-width: 1000px;
+	background: #f2f2f2;
+	height: 250px;
+	margin-top: 24px;
+}
+.footer .foot-box{
+	width: 1000px;
+	margin: auto;
+	height: 205px;
+	padding-top: 45px;
+	display: flex;
+	justify-content: space-around;
+}
+.foot-box .num{
+	width: 140px;
+	text-align: center;
+		font-size: 18px;
+	color: #5c5c5a;
+}
+.foot-box .num dt{
+	margin-bottom: 20px;
+
+}
+.foot-box .num dd{
+	font-size: 15px;
+}
+.foot-box .num dd p{
+	margin-bottom: 10px;
+}
+.foot-box .big img{
+	width: 140px;
+} 
+.foot-box .small img{
+	width: 90px;
+}
+
+/*关于我们*/
+.us{
+	    height: 2350px;
+}
+.us .us-head-bac{
+	height: 340px;
+	background: url(../img/us/usbac.png) repeat;
+}
+.us .long-img{
+	width: 1000px;
+	margin: auto;
+	    position: relative;
+    top: -210px;
+}
+/*关于我们*/

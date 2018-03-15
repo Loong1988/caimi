@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Our Love Story</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('digital-7_mono.ttf') format("truetype");
+		}
+		body{
+			background: url('img/psb.jpg') no-repeat center / 100%;
+		}
+		.mo{
+			width: 20px;
+		}
+	</style>
+	<link href="css/default.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/garden.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+</head>
+
+<body>
+	<div id="mainDiv">
+		<div id="content">
+			<div id="code">
+				<p>小小小-燕子：</p>
+				<p>从那天你在泉瞬吼了一嗓子，</p>
+<p>我就深深的被震惊了</p>
+<p>此处略去..哈哈..等20个字</p>
+<p>然后就认识了你直到现在...</p>
+<p>在这期间发生了很多很多的事，</p>
+<p>有开心的事情，也有不开心的事情</p>
+<p>但这都是我们生活中的一点一滴</p>
+<p>
+	<img src="img/mo.jpg" class="mo"/>
+	<img src="img/mo.jpg" class="mo"/>
+	<img src="img/mo.jpg" class="mo"/>
+</p>
+<p>圣诞快乐！<img src="img/mo.jpg" class="mo"/></p>
+<p>爱你的龙龙</p>
+			</div>
+			<div id="loveHeart">
+				<canvas id="garden"></canvas>
+				<div id="words">
+					<div id="messages">
+						小燕子, 我们认识已经有
+						<div id="elapseClock"></div>
+					</div>
+					<div id="loveu">
+						Love u forever and ever.<br/>
+						<div class="signature">- LONG</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="copyright">
+			All this website copyright belongs to @燕子.<br />
+			Copyright © 2017 爱你哒龙龙 2017
+		</div>
+	</div>
+	<script type="text/javascript">
+		var offsetX = $("#loveHeart").width() / 2;
+		var offsetY = $("#loveHeart").height() / 2 - 55;
+		var together = new Date();
+		together.setFullYear(2015, 10, 6);
+		together.setHours(20);
+		together.setMinutes(0);
+		together.setSeconds(0);
+		together.setMilliseconds(0);
+		
+		if (!document.createElement('canvas').getContext) {
+			var msg = document.createElement("div");
+			msg.id = "errorMsg";
+			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+			document.body.appendChild(msg);
+			$("#code").css("display", "none")
+			$("#copyright").css("position", "absolute");
+			$("#copyright").css("bottom", "10px");
+		    document.execCommand("stop");
+		} else {
+			setTimeout(function () {
+				startHeartAnimation();
+			}, 2500);
+
+			timeElapse(together);
+			setInterval(function () {
+				timeElapse(together);
+			}, 2500);
+
+			adjustCodePosition();
+			$("#code").typewriter();
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+.tellImg .app {
+  width: 386px;
+  height: 124px;
+  position: relative;
+  bottom: 36px;
+  right: 240px;
+  display: flex;
+  justify-content: space-between;
+}
+.tellImg .app .left {
+  width: 240px;
+  position: relative;
+}
+.tellImg .app .left > p {
+  height: 50px;
+  margin: 0;
+}
+.tellImg .app .left .p1 {
+  background: url(../img/tabact/app.png) no-repeat center / 100% 100%;
+  margin-bottom: 24px;
+}
+.tellImg .app .left .p2 {
+  background: url(../img/tabact/common.png) no-repeat center / 100% 100%;
+}
+.tellImg .app .left .p1-act {
+  background: url(../img/tabact/app-act.png) no-repeat center / 100% 100%;
+}
+.tellImg .app .left .p2-act {
+  background: url(../img/tabact/common-act.png) no-repeat center / 100% 100%;
+}
+.tellImg .app .left .money {
+  width: 240px;
+  height: 85px;
+  background: url(../img/tabact/money.png) bottom / 100%;
+  position: absolute;
+  top: -85px;
+  left: -15px;
+}
+.tellImg .app .right {
+  width: 124px;
+  background: url(../img/common/address.png) no-repeat center / 100%;
+  color: #222;
+  font-size: 20px;
+  line-height: 124px;
+  text-align: center;
+}
+.tellImg .app .right img {
+  width: 100%;
+  height: 100%;
+}
+.caimi-message .ranking {
+  overflow: hidden;
+}
+.caimi-message .ranking ul li {
+  height: 44.25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.caimi-message .ranking ul li .d1 {
+  height: 44.25px;
+  width: 44.25px;
+  color: #222;
+}
+.caimi-message .ranking ul li .d1 span {
+  font-size: 18px;
+  color: #aaa;
+  width: 44.25px;
+  text-align: center;
+  line-height: 44.25px;
+  display: block;
+}
+.caimi-message .ranking ul li .d2 {
+  width: 165px;
+  font-size: 16px;
+}
+.caimi-message .ranking ul li .d3 {
+  flex: 1;
+  font-size: 16px;
+  color: #f17e50;
+}
+.caimi-message .ranking ul li:nth-child(2n) {
+  background: #f7f7f7;
+}
+.caimi-message .ranking ul li:nth-child(1) {
+  background: url(../img/ranking/tit1.png) no-repeat 8px center / 30px;
+}
+.caimi-message .ranking ul li:nth-child(2) {
+  background: #f7f7f7 url(../img/ranking/tit2.png) no-repeat 8px center / 30px;
+}
+.caimi-message .ranking ul li:nth-child(3) {
+  background: url(../img/ranking/tit3.png) no-repeat 8px center / 30px;
+}
+.foot-box .num p {
+  cursor: pointer;
+}
+.headtab0,
+.headtab2 {
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+.headtab1 {
+  min-width: 1200px;
+  font-size: 0 !important;
+  display: none;
+  overflow: hidden;
+}
+.headtab1 .imgbox {
+  height: 550px;
+  background: #fceb33 url(../img/product/product9.png) no-repeat center / 1200px 100%;
+}
+.headtab1 .imgh {
+  height: 400px;
+}
+.headtab1 .imgbox2 {
+  background: #fff url(../img/product/product2.png) no-repeat center / 1000px 100%;
+}
+.headtab1 .imgbox3 {
+  background: #f8f9f4 url(../img/product/product3.png) no-repeat center / 1000px 100%;
+}
+.headtab1 .imgbox4 {
+  background: #fff url(../img/product/product4.png) no-repeat center / 1000px 100%;
+}
+/*# sourceMappingURL=index2.css.map */
